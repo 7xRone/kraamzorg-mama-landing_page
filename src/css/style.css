@@ -227,7 +227,7 @@ footer .container .contact ul li img {
   margin-right: 0.5em;
 }
 
-@media screen and (min-width: 180px) {
+@media screen and (min-width: 480px) {
   header .top-nav .menu {
     display: none;
   }
