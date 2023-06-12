@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: #ef61bc;
+}
+
+header {
+  background-color: var(--theme-color);
+}
+header .top-nav {
+  border: 1px solid white;
+  padding: 0.3em;
+}
+header .top-nav img {
+  width: 8em;
+}
+header .top-nav .menu {
+  float: right;
+  margin: 1em 1em 0 1em;
+}
+header .top-nav .menu div {
+  width: 2em;
+  height: 0.3em;
+  background-color: white;
+  margin-bottom: 0.2em;
+}
+header .top-nav nav .left-nav {
+  display: none;
+}
+header .top-nav nav .left-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .top-nav nav .right-nav {
+  display: none;
+}
+
+.hero .hero-container .right-column {
+  padding: 1em;
+}
+.hero .hero-container .right-column img {
+  width: 100%;
+  filter: blur(0.6px);
+}
+.hero .hero-container .left-column {
+  padding: 1em;
+  color: white;
+}
+.hero .hero-container .left-column h1,
+.hero .hero-container .left-column p {
+  margin-bottom: 0.5em;
+}
+.hero .hero-container .left-column .get-60-off {
+  margin-top: 3em;
+  border: 1px solid white;
+  overflow: hidden;
+  padding: 1em;
+}
+.hero .hero-container .left-column .get-60-off:hover {
+  border-radius: 2em;
+  box-shadow: 0 0 5px 2px white;
+}
+.hero .hero-container .left-column .get-60-off p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.hero .hero-container .left-column .get-60-off #arrow {
+  margin-top: 2px;
+  float: right;
+}
+
+section.certificates {
+  padding: 2em;
+}
+section.certificates #title1 {
+  padding-bottom: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+section.certificates img {
+  padding-top: 1em;
+  width: 100%;
+  padding-bottom: 1em;
+}
+section.certificates .certificates-video-container {
+  position: relative;
+  overflow: none;
+}
+section.certificates .certificates-video-container img {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+section.certificates .certificates-video-container .play-btn-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.certificates .certificates-video-container .play-btn-container #play-btn {
+  width: 30%;
+}
+section.certificates .certificates-video-container .play-btn-container #play-btn img {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+section.certificates .video-title {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  margin: 0.3em;
+  padding: 0.7em;
+  border-left: 4px solid var(--theme-color);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section.certificates2 #title2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+section.certificates2 p {
+  text-align: center;
+}
+section.certificates2 .cards {
+  margin: 3em;
+  padding: 0.7em;
+}
+section.certificates2 .cards .card {
+  margin: 1em;
+}
+section.certificates2 .cards .card .img-container {
+  display: flex;
+  margin: 1em;
+}
+section.certificates2 .cards .card img {
+  width: 7em;
+  margin-right: auto;
+  margin-left: auto;
+}
+section.certificates2 .cards .card-title {
+  margin-bottom: 0.5em;
+}
+section.certificates2 .cards .card-description {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+section.testemonials {
+  padding: 1em;
+}
+section.testemonials p.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+section.testemonials p.desc {
+  text-align: center;
+  opacity: 0.5;
+}
+section.testemonials .testimonial {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.call-to-action #title {
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+  text-align: center;
+  font-weight: bold;
+}
+.call-to-action #desc {
+  text-align: center;
+  opacity: 0.5;
+}
+.call-to-action .call-to-action-btn {
+  max-width: 400px;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ef61bc;
+  padding: 0.6em;
+}
+.call-to-action .call-to-action-btn img {
+  margin-top: 0.3em;
+  float: right;
+}
+.call-to-action .call-to-action-btn p {
+  color: azure;
+  display: inline-block;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+  background-color: var(--theme-color);
+}
+footer .container .logo-container {
+  margin-bottom: 1em;
+}
+footer .container .logo-container img {
+  width: 60%;
+}
+footer .container .contact {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+footer .container .contact p {
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+}
+footer .container .contact ul {
+  opacity: 0.8;
+  margin-left: 0.8em;
+  font-size: 1em;
+  list-style: none;
+}
+footer .container .contact ul #item1 img {
+  margin-right: 0.5em;
+}/*# sourceMappingURL=style.css.map */

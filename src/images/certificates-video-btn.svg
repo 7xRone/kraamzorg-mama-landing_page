@@ -1,0 +1,16 @@
+<svg id="Groupe_17430" data-name="Groupe 17430" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127.159" height="127.159" viewBox="0 0 127.159 127.159">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="icon_av_play_24px" data-name="icon/av/play_24px" d="M0,33.1V2.917A2.775,2.775,0,0,1,4.285.47l22.649,15.06a2.989,2.989,0,0,1,0,4.923L4.285,35.543a2.678,2.678,0,0,1-1.5.47A2.846,2.846,0,0,1,0,33.1Z" transform="translate(0 0)" fill="#37474f"/>
+    </clipPath>
+  </defs>
+  <g id="Play_Button" data-name="Play Button" transform="translate(0 0)">
+    <circle id="Btn_bg" data-name="Btn bg" cx="63.579" cy="63.579" r="63.579" fill="#fff" opacity="0.22"/>
+    <circle id="Btn_bg-2" data-name="Btn bg" cx="42.444" cy="42.444" r="42.444" transform="translate(21.135 20.056)" fill="#fff" opacity="0.45"/>
+  </g>
+  <g id="icon_av_play_24px-2" data-name="icon/av/play_24px" transform="translate(50.675 45.573)">
+    <g id="Groupe_1" data-name="Groupe 1" transform="translate(0 0)">
+      <path id="icon_av_play_24px-3" data-name="icon/av/play_24px" d="M0,33.1V2.917A2.775,2.775,0,0,1,4.285.47l22.649,15.06a2.989,2.989,0,0,1,0,4.923L4.285,35.543a2.678,2.678,0,0,1-1.5.47A2.846,2.846,0,0,1,0,33.1Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
