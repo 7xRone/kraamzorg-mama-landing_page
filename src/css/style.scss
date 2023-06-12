@@ -11,7 +11,6 @@ header {
   background-color: var(--theme-color);
 
   .top-nav {
-    border: 1px solid white;
     padding: 0.3em;
     img {
       width: 8em;
@@ -233,6 +232,21 @@ footer .container {
       li {
         img {
           margin-right: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 180px) {
+  header {
+    .top-nav {
+      .menu {
+        display: none;
+      }
+      nav {
+        .left-nav {
+          display: initial;
         }
       }
     }

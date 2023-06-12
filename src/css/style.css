@@ -12,7 +12,6 @@ header {
   background-color: var(--theme-color);
 }
 header .top-nav {
-  border: 1px solid white;
   padding: 0.3em;
 }
 header .top-nav img {
