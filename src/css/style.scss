@@ -48,7 +48,6 @@ header {
       padding: 1em;
       img {
         width: 100%;
-        filter: blur(0.6px);
       }
     }
     .left-column {
@@ -289,7 +288,7 @@ footer .container {
 @media screen and (min-width: 740px) {
   header {
     .top-nav {
-      margin-top: 0.4em;
+      margin-top: 0;
       ul {
         li {
           padding: 0.5em;
@@ -362,6 +361,11 @@ footer .container {
 }
 
 @media screen and (min-width: 900px) {
+  header {
+    .top-nav {
+      margin-top: 0;
+    }
+  }
   .hero {
     .hero-container {
       flex-direction: row;
