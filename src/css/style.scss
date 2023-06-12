@@ -9,7 +9,6 @@
 
 header {
   background-color: var(--theme-color);
-
   .top-nav {
     padding: 0.3em;
     img {
@@ -238,9 +237,6 @@ footer .container {
   }
 }
 
-body {
-  background-color: #000000;
-}
 @media screen and (min-width: 180px) {
   header {
     .top-nav {
@@ -250,6 +246,15 @@ body {
       nav {
         .left-nav {
           display: initial;
+        }
+        .right-nav {
+          display: initial;
+          #call-icon {
+            width: 1em;
+          }
+          #search-icon {
+            width: 1em;
+          }
         }
       }
     }

@@ -225,4 +225,22 @@ footer .container .contact ul {
 }
 footer .container .contact ul li img {
   margin-right: 0.5em;
+}
+
+@media screen and (min-width: 180px) {
+  header .top-nav .menu {
+    display: none;
+  }
+  header .top-nav nav .left-nav {
+    display: initial;
+  }
+  header .top-nav nav .right-nav {
+    display: initial;
+  }
+  header .top-nav nav .right-nav #call-icon {
+    width: 1em;
+  }
+  header .top-nav nav .right-nav #search-icon {
+    width: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */
